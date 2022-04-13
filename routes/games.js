@@ -105,11 +105,4 @@ router.delete('/:id', async (req, res) => {
     }
 });
 
-function filterQuery(req) {
-    
-
-
-    return filter;
-}
-
 module.exports = router;

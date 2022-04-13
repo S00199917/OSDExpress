@@ -17,7 +17,7 @@ function validation(game) {
         developers: joi.array().items(joi.string()).min(1).max(50).required(),
         publishers: joi.array().items(joi.string()).min(1).max(50).required(),
         description: joi.string().max(500).required(),
-        img: joi.string().required()
+        image: joi.string().required()
     });
 
     return schema.validate(game);
